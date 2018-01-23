@@ -28,3 +28,14 @@ You can also pass a boolean to the `Wait()` method if you require more granular 
         }
     }
 ```
+
+If you are going full async, you can of course do:
+```
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            await DebuggerAwaiter.WaitAsync(args);
+        }
+    }
+```
