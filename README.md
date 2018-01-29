@@ -15,7 +15,7 @@ Adds the ability to easily wait for a debugger connection before a .NET Core app
     }
 ```
 
-3. Pass the argument '-debugger' to your application to have it wait for a local or remote debugger connection before continuing execution.
+3. Pass the argument '-waitfordebugger' to your application to have it wait for a local or remote debugger connection before continuing execution.
 
 # Alternative Usage
 You can also pass a boolean to the `Wait()` method if you require more granular control over when to wait for the debugger connection:
